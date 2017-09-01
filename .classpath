@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/api"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/app"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="MULE_RUNTIME"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/intellij/annotations/12.0/annotations-12.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/weave/core_2.11/1.0.3/core_2.11-1.0.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/owasp/esapi/esapi/2.0.1/esapi-2.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/force/api/force-partner-api/36.0.0/force-partner-api-36.0.0.jar" sourcepath="/M2_REPO/com/force/api/force-partner-api/36.0.0/force-partner-api-36.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/force/api/force-wsc/36.2.0-hf1/force-wsc-36.2.0-hf1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.6/ftplet-api-1.0.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.6/ftpserver-core-1.0.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/fusesource/jansi/jansi/1.8/jansi-1.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/jnr/jffi/1.2.5/jffi-1.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/jnr/jffi/1.2.12/jffi-1.2.12-native.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/typelevel/machinist_2.11/0.3.0/machinist_2.11-0.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.4/mina-core-2.0.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/tools/devkit/mule-devkit-shade/3.8.1/mule-devkit-shade-3.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-sfdc-analytics/2.0.3/mule-module-sfdc-analytics-2.0.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/weave/mule-plugin-weave_2.11/3.7.3/mule-plugin-weave_2.11-3.7.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/1.0/objenesis-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/parboiled/parboiled_2.11/2.1.0/parboiled_2.11-2.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/chuusai/shapeless_2.11/2.1.0/shapeless_2.11-2.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/spire-math/spire-macros_2.11/0.9.0/spire-macros_2.11-0.9.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/spire-math/spire_2.11/0.9.0/spire_2.11-0.9.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/threeten/threetenbp/1.2/threetenbp-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/woodstox/woodstox-core/5.0.1/woodstox-core-5.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/santuario/xmlsec/1.5.7/xmlsec-1.5.7.jar"/>
+	<classpathentry kind="con" path="MULE_LIB/Salesforce Analytics Cloud/org.mule.tooling.ui.contribution.sfdc-analytics.3.5.0"/>
+	<classpathentry kind="lib" path="C:/Naveen/jars/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Naveen/jars/sqljdbc41-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Naveen/jars/commons-dbcp-20030825.184428.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
