@@ -1,0 +1,55 @@
+{
+    "fileFormat": {
+    "charsetName": "UTF-8",
+    "fieldsEnclosedBy": "\"",
+    "fieldsDelimitedBy": ",",
+    "linesTerminatedBy":"\n",
+    "numberOfLinesToIgnore": 1
+  },
+  "objects": [
+  {
+        "connector": "AcmeCSVConnector",
+        "description": "",
+        "fullyQualifiedName": "SalesData",
+        "label": "Sales Data",
+        "name": "SalesData",
+        "fields": [
+        {
+            "description": "",
+            "fullyQualifiedName": "SalesData.Name",
+            "label": "Account Name",
+            "name": "Name",
+            "isSystemField": false,
+            "isUniqueId": false,
+            "isMultiValue": false,
+            "type": "Text"
+        },
+        {
+            "description": "",
+            "fullyQualifiedName": "SalesData.Amount",
+            "label": "Opportunity Amount",
+            "name": "Amount",
+            "isSystemField": false,
+            "defaultValue": "0",
+            "isUniqueId": false,
+            "type": "Numeric",
+            "precision": 10,
+            "scale": 2,
+            "format": "number"
+        },
+        {
+            "description": "",
+            "fullyQualifiedName": "SalesData.year",  
+            "label": "Opportunity Close sss",
+            "name": "year",	
+            "isSystemField": false,
+            "isUniqueId": false,
+            "type": "Numeric",
+            "precision": 10,
+            "scale": 2,
+            "format": "number"
+        }
+     ]
+	}
+  ]
+}
