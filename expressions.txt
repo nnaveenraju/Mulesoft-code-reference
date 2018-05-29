@@ -1,0 +1,7 @@
+
+
+READ properties in expressions : 
+
+ flowVars.fileProperty=payload + '.download.report.names';
+ flowVars.files=dw("p(flowVars.fileProperty)");
+
